@@ -1,0 +1,3 @@
+cd C:\breast_cancer
+
+streamlit run app.py
