@@ -156,8 +156,8 @@ if st.button("Breast Cancer Test Result"):
     print(breast_cancer_prediction)
     if breast_cancer_prediction[0] == 0:
 
-        breast_cancer_check = "Hurrah! You don't have Breast Cancer."
+        breast_cancer_check = "Patient don't have Breast Cancer."
         st.success(breast_cancer_check)
     else:
-        breast_cancer_check = "Sorry! You have Breast Cancer."
+        breast_cancer_check = "Patient have Breast Cancer."
         st.error(breast_cancer_check)
